@@ -1,0 +1,113 @@
+$m-0: 0;
+$p-0: 0;
+$p-b-15: 15px;
+
+.form-block{
+  padding-bottom: $p-b-15;
+}
+
+.form-input{
+  width: 330px;
+}
+
+.color-red{
+  color: rgb(255, 85, 0);
+}
+
+.alert-text{
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.feedback{
+  p {
+    display: inline-block;
+  }
+}
+
+// Small devices (landscape phone, 576px and low)
+@media (max-width: 575px) {
+  .feedback{
+    p {
+      display: block;
+    }
+  }
+  .main-block, .form-control, .form-input, .wid-90{
+    width: 90%;
+  }
+  .main-block{
+    margin-left: 5%;
+  }
+  .pad{
+    padding-left: 0;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .feedback{
+    p {
+      display: block;
+    }
+  }
+  .main-block, .form-control, .form-input, .wid-90{
+    width: 90%;
+  }
+  .main-block{
+    margin-left: 5%;
+  }
+  .pad{
+    padding-left: 0;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .feedback{
+    p {
+      display: block;
+    }
+  }
+  .main-block, .form-control, .form-input, .wid-90{
+    width: 90%;
+  }
+  .main-block{
+    margin-left: 5%;
+  }
+  .pad{
+    padding-left: 0;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .main-block, .form-control, .form-input, .wid-90{
+    width: 90%;
+  }
+  .main-block{
+    margin-left: 0;
+    width: inherit;
+  }
+  .feedback{
+    p {
+      display: inline-block;
+    }
+  }
+}
+
+// Extra Large devices (1024px and up)
+@media (min-width: 1024px){
+  .main-block, .form-control, .form-input, .wid-90{
+    width: 100%;
+  }
+  .main-block{
+    margin-left: 0;
+    width: inherit;
+  }
+  .feedback{
+    p {
+      display: inline-block;
+    }
+  }
+}
